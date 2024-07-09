@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div + p {
+  background-color: yellow;
+}
+.android {
+  width: 100px;
+  height: 100px;
+  filter:hue-rotate(90deg);
+}
+</style>
+</head>
+<body>
+
+<h2>Adjacent Sibling Selector- without div next tag</h2>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+<p>Paragraph 3. .</p>
+<p>Paragraph 4. .</p>
+<p>Paragraph 4. .</p>
+<div>
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+<img src="android.png" class="android">
+
+</body>
+</html>
